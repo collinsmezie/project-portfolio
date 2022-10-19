@@ -12,10 +12,10 @@ import redux from '../images/redux.png';
 export const projects = [
   {
     id: uuidv4(),
-    title: "MediBook",
-    description: "A web app that allows users to book and track appointments with doctors.",
-    image: "https://user-images.githubusercontent.com/55185309/188284939-b3f53fae-93bd-426a-a3e7-2d12eb84b923.png",
-    url: "https://medibook-ui.vercel.app/",
+    title: "Space Traveler's Hub",
+    description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
+    image: "https://github.com/collinsmezie/space-travellers-react/blob/dev/public/spaceTravellers.png?raw=true",
+    url: "https://space-travellers-react.vercel.app/",
     technologies: [
       {
         name: "Ruby on Rails",
