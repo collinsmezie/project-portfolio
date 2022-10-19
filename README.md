@@ -1,1 +1,1 @@
-## [sodiq.me](http://collins.me/)
+## [collins.me](http://collins.me/)
