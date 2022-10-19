@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  text-rendering: optimizelegibility;
+}
+
+*::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.active {
+  background-color: rgb(248, 250, 252, 0.05);
+  color: #14b8a6;
+  border-right: 2px solid #14b8a6;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
