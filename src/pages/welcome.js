@@ -43,7 +43,7 @@ export default function Welcome() {
         <p className="py-10 md:w-2/3">I enjoy building projects. I get to gain new experiences with each project and also work on something interesting. Take a look at some of the projects I've dedicated my time to.</p>
         <div id="projects-section" className="grid w-full grid-cols-1 gap-32 md:grid-cols-2 lg:mb-0">
           {projects.map(project =>
-            <Project key={project.id} title={project.title} description={project.description} technologies={project.technologies} link={project.url} image={project.image} />
+            <Project key={project.id} title={project.title} description={project.description} technologies={project.technologies} url={project.url} github={project.github} image={project.image} />
           )}
         </div>
       </section>
