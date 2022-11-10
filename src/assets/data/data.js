@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { BiCodeAlt } from 'react-icons/bi';
 import { BsStars, BsBuilding } from 'react-icons/bs';
 import { MdOutlineVerifiedUser } from 'react-icons/md';
-import css from '../images/css.png';
+// import css from '../images/css.png';
 import javascript from '../images/js.png';
 import tailwind from '../images/tailwind-css.png';
 import ror from '../images/rubyonrails.png';
@@ -15,25 +15,9 @@ export const projects = [
     title: "MediBook",
     description: "A web app that allows users to book and track appointments with doctors.",
     image: "https://user-images.githubusercontent.com/55185309/188284939-b3f53fae-93bd-426a-a3e7-2d12eb84b923.png",
-    url: "https://medibook-ui.vercel.app/",
-    technologies: [
-      {
-        name: "Ruby on Rails",
-        image: ror
-      },
-      {
-        name: "React",
-        image: react
-      },
-      {
-        name: "Redux",
-        image: redux
-      },
-      {
-        name: "Tailwind CSS",
-        image: tailwind
-      }
-    ]
+    url: "https://medibook-ui.vercel.app",
+    github: "https://github.com/collinsmezie/space-travellers-react",
+    technologies: [ror,react,redux,tailwind]
   },
 
   {
@@ -41,25 +25,9 @@ export const projects = [
     title: "Space Traveler's Hub",
     description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
     image: "https://github.com/collinsmezie/space-travellers-react/blob/dev/public/spaceTravellers.png?raw=true",
-    url: "https://space-travellers-react.vercel.app/",
-    technologies: [
-      {
-        name: "Ruby on Rails",
-        image: ror
-      },
-      {
-        name: "React",
-        image: react
-      },
-      {
-        name: "Redux",
-        image: redux
-      },
-      {
-        name: "Tailwind CSS",
-        image: tailwind
-      }
-    ]
+    url: "https://space-travellers-react.vercel.app",
+    github: "https://github.com/collinsmezie/space-travellers-react",
+    technologies: [react,javascript,redux,tailwind]
   },
  
   {
@@ -67,17 +35,9 @@ export const projects = [
     title: "Budgit",
     description: "A simple web application for tracking your budget.",
     image: "https://user-images.githubusercontent.com/55185309/184540699-4353c054-c3e5-49e9-9b55-ece9ea3f6721.png",
-    url: "https://my-budgit-app.herokuapp.com/",
-    technologies: [
-      {
-        name: "Ruby on Rails",
-        image: ror
-      },
-      {
-        name: "Tailwind CSS",
-        image: tailwind
-      }
-    ]
+    url: "https://my-budgit-app.herokuapp.com",
+    github: "https://github.com/collinsmezie/space-travellers-react",
+    technologies: [ror, tailwind]
   }
 ]
 
