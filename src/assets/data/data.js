@@ -1,4 +1,5 @@
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
+import { generate } from 'randomized-string';
 import { BiCodeAlt } from 'react-icons/bi';
 import { BsStars, BsBuilding } from 'react-icons/bs';
 import { MdOutlineVerifiedUser } from 'react-icons/md';
@@ -8,10 +9,11 @@ import tailwind from '../images/tailwind-css.png';
 import ror from '../images/rubyonrails.png';
 import react from '../images/react.png';
 import redux from '../images/redux.png';
+import recipe from '../images/recipe.png';
 
 export const projects = [
   {
-    id: uuidv4(),
+    id: generate(),
     title: "MediBook",
     description: "A web app that allows users to book and track appointments with doctors.",
     image: "https://user-images.githubusercontent.com/55185309/188284939-b3f53fae-93bd-426a-a3e7-2d12eb84b923.png",
@@ -21,7 +23,7 @@ export const projects = [
   },
 
   {
-    id: uuidv4(),
+    id: generate(),
     title: "Space Traveler's Hub",
     description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
     image: "https://github.com/collinsmezie/space-travellers-react/blob/dev/public/spaceTravellers.png?raw=true",
@@ -29,9 +31,19 @@ export const projects = [
     github: "https://github.com/collinsmezie/space-travellers-react",
     technologies: [react,javascript,redux,tailwind]
   },
+
+  {
+    id: generate(),
+    title: "Recipify",
+    description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
+    image: recipe,
+    url: "https://recipeefy.herokuapp.com/",
+    github: "https://github.com/collinsmezie/recipe-app",
+    technologies: [ror, tailwind]
+  },
  
   {
-    id: uuidv4(),
+    id: generate(),
     title: "Budgit",
     description: "A simple web application for tracking your budget.",
     image: "https://user-images.githubusercontent.com/55185309/184540699-4353c054-c3e5-49e9-9b55-ece9ea3f6721.png",
@@ -43,22 +55,22 @@ export const projects = [
 
 export const skills = [
   {
-    id: uuidv4(),
+    id: generate(),
     icon: <BiCodeAlt />,
     text: "Building accessible and performant apps.",
   },
   {
-    id: uuidv4(),
+    id: generate(),
     icon: <BsBuilding />,
     text: "Learning fast, building things that solve problems.",
   },
   {
-    id: uuidv4(),
+    id: generate(),
     icon: <BsStars />,
     text: "Detailed designs and polish websites.",
   },
   {
-    id: uuidv4(),
+    id: generate(),
     icon: <MdOutlineVerifiedUser />,
     text: "Responsibility and accountability.",
   }
@@ -66,43 +78,43 @@ export const skills = [
 
 export const techSkills = [
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'JavaScript (ES6)',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Ruby on Rails',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'React.js/Next.js',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Redux',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Tailwind CSS',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Jest/RSpec',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'PostgreSQL',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Agile Methodologies',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Git/GitHub',
   },
   {
-    id: uuidv4(),
+    id: generate(),
     skill: 'Mobile/Responsive Design',
   }
 ]
