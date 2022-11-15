@@ -47,7 +47,7 @@ export const projects = [
   {
     id: generate(),
     title: "TranXact",
-    description: "A simple web application for tracking your budget.",
+    description: "A simple web based application for tracking your budget.",
     image: budget,
     url: "https://tranxact-budget-app.herokuapp.com/",
     github: "https://github.com/collinsmezie/TranXact",
