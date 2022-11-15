@@ -37,7 +37,7 @@ export const projects = [
   {
     id: generate(),
     title: "Recipify",
-    description: "Recipify keeps track of all your recipes, ingredients, and inventory and enables users create custom recipes,generate shopping list",
+    description: "Recipify keeps track of all your recipes, ingredients, inventory and enables users create custom recipes, and generate shopping list.",
     image: recipe,
     url: "https://recipeefy.herokuapp.com/",
     github: "https://github.com/collinsmezie/recipe-app",
