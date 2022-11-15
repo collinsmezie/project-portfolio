@@ -37,7 +37,7 @@ export const projects = [
   {
     id: generate(),
     title: "Recipify",
-    description: "The Rails Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.",
+    description: "Recipify keeps track of all your recipes, ingredients, and inventory and enables users create custom recipes,generate shopping list",
     image: recipe,
     url: "https://recipeefy.herokuapp.com/",
     github: "https://github.com/collinsmezie/recipe-app",
