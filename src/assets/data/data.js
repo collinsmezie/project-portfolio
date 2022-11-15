@@ -10,6 +10,8 @@ import ror from '../images/rubyonrails.png';
 import react from '../images/react.png';
 import redux from '../images/redux.png';
 import recipe from '../images/recipe.png';
+import budget from '../images/budget.png';
+
 
 export const projects = [
   {
@@ -44,11 +46,11 @@ export const projects = [
  
   {
     id: generate(),
-    title: "Budgit",
+    title: "TranXact",
     description: "A simple web application for tracking your budget.",
-    image: "https://user-images.githubusercontent.com/55185309/184540699-4353c054-c3e5-49e9-9b55-ece9ea3f6721.png",
-    url: "https://my-budgit-app.herokuapp.com",
-    github: "https://github.com/collinsmezie/space-travellers-react",
+    image: budget,
+    url: "https://tranxact-budget-app.herokuapp.com/",
+    github: "https://github.com/collinsmezie/TranXact",
     technologies: [ror, tailwind]
   }
 ]
