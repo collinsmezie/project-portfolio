@@ -11,17 +11,19 @@ import react from '../images/react.png';
 import redux from '../images/redux.png';
 import recipe from '../images/recipe.png';
 import budget from '../images/budget.png';
+import bookRacers from '../images/bookracers.png';
+import sass from '../images/sass.png'
 
 
 export const projects = [
   {
     id: generate(),
-    title: "MediBook",
-    description: "A web app that allows users to book and track appointments with doctors.",
-    image: "https://user-images.githubusercontent.com/55185309/188284939-b3f53fae-93bd-426a-a3e7-2d12eb84b923.png",
-    url: "https://medibook-ui.vercel.app",
-    github: "https://github.com/collinsmezie/space-travellers-react",
-    technologies: [ror,react,redux,tailwind]
+    title: "Book Racers",
+    description: "A motorcycles renting company web app where registered users can book a bike based on their preference and intended usage.It is built built using Rails, React, Redux Toolkit and Sass.",
+    image: bookRacers,
+    url: "https://effortless-starburst-07cb77.netlify.app/",
+    github: "https://github.com/jssol/bookracers-frontend",
+    technologies: [ror,react,redux,sass]
   },
 
   {
