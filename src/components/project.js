@@ -15,7 +15,7 @@ export default function Project({title, description, image, url, github ,technol
         </div >
         <div className="py-2 project">
           <p className="text-base font-semibold text-white md:hover:animate-none">BUILT WITH:</p>
-          {technologies.map((technology) =>
+          {technologies.map((technology, index) =>
           <img key={uuidv4()} src={technology} width={40} height={40}/>
           )}
         </div >

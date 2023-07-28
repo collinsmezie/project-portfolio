@@ -11,19 +11,22 @@ import react from '../images/react.png';
 import redux from '../images/redux.png';
 import recipe from '../images/recipe.png';
 import budget from '../images/budget.png';
-import bookRacers from '../images/bookracers.png';
-import sass from '../images/sass.png'
+import next from '../images/nextimages.png';
+import blogapp from '../images/blogapp.png';
+
 
 
 export const projects = [
   {
     id: generate(),
-    title: "Book Racers",
-    description: "A motorcycles renting company web app where registered users can book a bike based on their preference and intended usage.It is built built using Rails, React, Redux Toolkit and Sass.",
-    image: bookRacers,
-    url: "https://effortless-starburst-07cb77.netlify.app/",
-    github: "https://github.com/jssol/bookracers-frontend",
-    technologies: [ror,react,redux,sass]
+    title: "Tech Bloggers Haven",
+    description: "An engaging web application designed for tech enthusiasts and developers to share their knowledge and insights with the world.",
+    image: blogapp,
+    url: "https://jamstack-blog-nine.vercel.app/",
+    github: "https://github.com/collinsmezie/jamstack-blog",
+    // url: "https://effortless-starburst-07cb77.netlify.app/",
+    // github: "https://github.com/jssol/bookracers-frontend",
+    technologies: [next,react,tailwind]
   },
 
   {
@@ -87,6 +90,10 @@ export const techSkills = [
   },
   {
     id: generate(),
+    skill: 'Ruby',
+  },
+  {
+    id: generate(),
     skill: 'Ruby on Rails',
   },
   {
@@ -111,6 +118,10 @@ export const techSkills = [
   },
   {
     id: generate(),
+    skill: 'MongoDB',
+  },
+  {
+    id: generate(),
     skill: 'Agile Methodologies',
   },
   {
@@ -119,6 +130,14 @@ export const techSkills = [
   },
   {
     id: generate(),
+    skill: 'Python',
+  },
+  {
+    id: generate(),
     skill: 'Mobile/Responsive Design',
-  }
+  },
+  {
+    id: generate(),
+    skill: 'Algorithms and Data Structures',
+  },
 ]
