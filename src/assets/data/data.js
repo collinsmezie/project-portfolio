@@ -3,7 +3,6 @@ import { generate } from 'randomized-string';
 import { BiCodeAlt } from 'react-icons/bi';
 import { BsStars, BsBuilding } from 'react-icons/bs';
 import { MdOutlineVerifiedUser } from 'react-icons/md';
-// import css from '../images/css.png';
 import javascript from '../images/js.png';
 import tailwind from '../images/tailwind-css.png';
 import ror from '../images/rubyonrails.png';
@@ -54,8 +53,8 @@ export const projects = [
     title: "Bungalow",
     description: "Explore diverse menus, order online, and savor culinary delights and enjoy delicious cuisine delivered to your doorstep.",
     image: bungalow,
-    url: "https://recipeefy.herokuapp.com/",
-    github: "https://github.com/collinsmezie/recipe-app",
+    url: "https://www.bungalowrestaurant.com/home",
+    // github: "https://github.com/collinsmezie/recipe-app",
     technologies: [ mongodb, express, react, node ]
   },
 
