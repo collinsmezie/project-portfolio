@@ -6,6 +6,7 @@ import { MdOutlineVerifiedUser } from 'react-icons/md';
 import javascript from '../images/js.png';
 import tailwind from '../images/tailwind-css.png';
 import ror from '../images/rubyonrails.png';
+import ruby from '../images/ruby.png';
 import react from '../images/react.png';
 import redux from '../images/redux.png';
 import recipe from '../images/recipe.png';
@@ -65,7 +66,7 @@ export const projects = [
     image: recipe,
     url: "https://recipeefy.herokuapp.com/",
     github: "https://github.com/collinsmezie/recipe-app",
-    technologies: [ror, tailwind]
+    technologies: [ruby, ror, tailwind]
   },
  
   {
@@ -75,7 +76,7 @@ export const projects = [
     image: budget,
     url: "https://tranxact-budget-app.herokuapp.com/",
     github: "https://github.com/collinsmezie/TranXact",
-    technologies: [ror, tailwind]
+    technologies: [ruby, ror, tailwind]
   }
 ]
 
