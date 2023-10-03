@@ -38,6 +38,9 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "node": "18.x"
+  },
   "devDependencies": {
     "parcel": "latest",
     "process": "^0.11.10"
