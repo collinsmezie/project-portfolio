@@ -19,7 +19,7 @@ import mongodb from '../images/mongodb.png';
 import express from '../images/express.png';
 import node from '../images/node.png';
 import pharma from '../images/pharma.png';
-import postgres from '../images/postgres.png';
+import postgres from '../images/postgresql.png';
 
 
 
