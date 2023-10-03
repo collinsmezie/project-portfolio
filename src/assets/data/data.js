@@ -18,6 +18,8 @@ import bungalow from '../images/bungalow.png';
 import mongodb from '../images/mongodb.png';
 import express from '../images/express.png';
 import node from '../images/node.png';
+import pharma from '../images/pharma.png';
+import postgres from '../images/postgres.png';
 
 
 
@@ -32,7 +34,7 @@ export const projects = [
     description: "An engaging web app designed for tech enthusiasts and developers to share their knowledge and insights with the world.",
     image: blogapp,
     url: "https://jamstack-blog-nine.vercel.app/",
-    github: "https://github.com/collinsmezie/jamstack-blog",
+    // github: "https://github.com/collinsmezie/jamstack-blog",
     // url: "https://effortless-starburst-07cb77.netlify.app/",
     // github: "https://github.com/jssol/bookracers-frontend",
     technologies: [next,react,tailwind]
@@ -44,7 +46,7 @@ export const projects = [
     description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
     image: SpaceX,
     url: "https://space-travellers-react.vercel.app",
-    github: "https://github.com/collinsmezie/space-travellers-react",
+    // github: "https://github.com/collinsmezie/space-travellers-react",
     technologies: [react,javascript,redux,tailwind]
   },
 
@@ -65,7 +67,7 @@ export const projects = [
     description: "Recipify tracks your recipes, ingredients, and inventory. Users can create custom recipes and generate shopping lists.",
     image: recipe,
     url: "https://recipeefy.herokuapp.com/",
-    github: "https://github.com/collinsmezie/recipe-app",
+    // github: "https://github.com/collinsmezie/recipe-app",
     technologies: [ruby, ror, tailwind]
   },
  
@@ -75,8 +77,18 @@ export const projects = [
     description: "A simple web based application for tracking your budget and monitoring your daily expenses.",
     image: budget,
     url: "https://tranxact-budget-app.herokuapp.com/",
-    github: "https://github.com/collinsmezie/TranXact",
+    // github: "https://github.com/collinsmezie/TranXact",
     technologies: [ruby, ror, tailwind]
+  },
+
+  {
+    id: generate(),
+    title: "Eastern Pharma",
+    description: "Advancing modern medicine, improving lives, and leading the way in biomedical innovation.",
+    image: pharma,
+    url: "https://easternlightpharma.com/",
+    // github: "https://github.com/collinsmezie/TranXact",
+    technologies: [postgres, express, react, node]
   }
 ]
 
