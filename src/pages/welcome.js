@@ -11,12 +11,12 @@ export default function Welcome() {
       
       <section id="intro" className="flex flex-col justify-center" aria-label="intro">
         <h1 className="flex flex-col justify-center h-screen max-w-5xl mx-auto mb-4 text-4xl leading-[50px] tracking-tight text-center text-white font-extralight md:text-8xl font-spectral">
-          <span className="font-light">Full Stack <span className="text-teal-300">Developer.</span></span>
-          <span>Building <span className="italic">performant</span> <br/>web applications.</span>
+          <span className="font-light">Software <span className="text-teal-300">Developer.</span></span>
+          <span>Building <span className="italic">performant</span> <br/> applications.</span>
         </h1>
         <div className="gap-10 my-10 md:flex">
-          <p>Throughout my years as a developer, I've had the opportunity to work with talented developers and designers which helped me raise my standards for what's expected from a web application.</p>
-          <p>Through this experience, I've learned to build products that are not only aesthetic and easy to use but are written in code that's maintainable, scalable and easy to understand.</p>
+          <p>Over the years as a software developer, I have had the privilege of collaborating with highly skilled professionals in both development and design. This collaboration has significantly elevated my standards for software applications, prompting a refined approach to product development.</p>
+          <p>Throughout these experiences, I have cultivated a commitment to crafting software products that transcend mere aesthetic appeal and user-friendliness. I am dedicated to ensuring that the underlying codebase is characterized by qualities of the best practices in software engineering.</p>
         </div>
         <Link to="/contact" className="border px-8 mt-6 py-1 border-teal-300 bg-transparent hover:bg-teal-300 hover:border ease-in-out duration-700 transition-colors text-teal-300 hover:text-black font-bold w-max sticky z-[11]">Get in touch</Link>
       </section>
