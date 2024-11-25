@@ -20,6 +20,7 @@ import express from '../images/express.png';
 import node from '../images/node.png';
 import pharma from '../images/pharma.png';
 import postgres from '../images/postgresql.png';
+import ajozave from '../images/ajozave.png'
 
 
 
@@ -28,26 +29,15 @@ import postgres from '../images/postgresql.png';
 
 
 export const projects = [
-  {
-    id: generate(),
-    title: "Tech Bloggers Haven",
-    description: "An engaging web app designed for tech enthusiasts and developers to share their knowledge and insights with the world.",
-    image: blogapp,
-    url: "https://jamstack-blog-nine.vercel.app/",
-    // github: "https://github.com/collinsmezie/jamstack-blog",
-    // url: "https://effortless-starburst-07cb77.netlify.app/",
-    // github: "https://github.com/jssol/bookracers-frontend",
-    technologies: [next,react,tailwind]
-  },
 
   {
     id: generate(),
-    title: "Space Traveler's Hub",
-    description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
-    image: SpaceX,
-    url: "https://space-travellers-react.vercel.app",
-    // github: "https://github.com/collinsmezie/space-travellers-react",
-    technologies: [react,javascript,redux,tailwind]
+    title: "AjoZave",
+    description: "Ajozave is a digital platform for automated group savings, simplifying contributions, payouts, and management.",
+    image: ajozave,
+    url: "https://ajozave-admin-account.vercel.app",
+    // github: "https://github.com/collinsmezie/recipe-app",
+    technologies: [node, react, express, tailwind]
   },
 
 
@@ -63,33 +53,53 @@ export const projects = [
 
   {
     id: generate(),
-    title: "Recipify",
-    description: "Recipify tracks your recipes, ingredients, and inventory. Users can create custom recipes and generate shopping lists.",
-    image: recipe,
-    url: "https://recipeefy.herokuapp.com/",
-    // github: "https://github.com/collinsmezie/recipe-app",
-    technologies: [ruby, ror, tailwind]
-  },
- 
-  {
-    id: generate(),
-    title: "TranXact",
-    description: "A simple web based application for tracking your budget and monitoring your daily expenses.",
-    image: budget,
-    url: "https://tranxact-budget-app.herokuapp.com/",
-    // github: "https://github.com/collinsmezie/TranXact",
-    technologies: [ruby, ror, tailwind]
+    title: "Space Traveler's Hub",
+    description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
+    image: SpaceX,
+    url: "https://space-travellers-react.vercel.app",
+    // github: "https://github.com/collinsmezie/space-travellers-react",
+    technologies: [react,javascript,redux,tailwind]
   },
 
   {
     id: generate(),
-    title: "Eastern Pharma",
-    description: "Advancing modern medicine, improving lives, and leading the way in biomedical innovation.",
-    image: pharma,
-    url: "https://easternlightpharma.com/",
-    // github: "https://github.com/collinsmezie/TranXact",
-    technologies: [postgres, express, react, node]
-  }
+    title: "Tech Bloggers Haven",
+    description: "An engaging web app designed for tech enthusiasts and developers to share their knowledge and insights with the world.",
+    image: blogapp,
+    url: "https://jamstack-blog-nine.vercel.app/",
+    // github: "https://github.com/collinsmezie/jamstack-blog",
+    technologies: [next,react,tailwind]
+  },
+
+  // {
+  //   id: generate(),
+  //   title: "Recipify",
+  //   description: "Recipify tracks your recipes, ingredients, and inventory. Users can create custom recipes and generate shopping lists.",
+  //   image: recipe,
+  //   url: "https://recipeefy.herokuapp.com/",
+  //   // github: "https://github.com/collinsmezie/recipe-app",
+  //   technologies: [ruby, ror, tailwind]
+  // },
+ 
+  // {
+  //   id: generate(),
+  //   title: "TranXact",
+  //   description: "A simple web based application for tracking your budget and monitoring your daily expenses.",
+  //   image: budget,
+  //   url: "https://tranxact-budget-app.herokuapp.com/",
+  //   // github: "https://github.com/collinsmezie/TranXact",
+  //   technologies: [ruby, ror, tailwind]
+  // },
+
+  // {
+  //   id: generate(),
+  //   title: "Eastern Pharma",
+  //   description: "Advancing modern medicine, improving lives, and leading the way in biomedical innovation.",
+  //   image: pharma,
+  //   url: "https://easternlightpharma.com/",
+  //   // github: "https://github.com/collinsmezie/TranXact",
+  //   technologies: [postgres, express, react, node]
+  // }
 ]
 
 export const skills = [
@@ -118,7 +128,15 @@ export const skills = [
 export const techSkills = [
   {
     id: generate(),
-    skill: 'JavaScript (ES6)',
+    skill: 'JavaScript (ES6)/TypeScript',
+  },
+  {
+    id: generate(),
+    skill: 'NestJS',
+  },
+  {
+    id: generate(),
+    skill: 'AWS',
   },
   {
     id: generate(),
