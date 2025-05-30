@@ -30,7 +30,7 @@ export default function Projects() {
         </div>
         <div id="projects-section" className="grid w-full grid-cols-1 gap-8 text-center text-white md:grid-cols-2 lg:mb-0">
           {projects.map((project) => 
-            <Project key={project.id} name={project.name} title={project.title} description={project.description} image={project.image} url={project.url} github={project.github} technologies={project.technologies}/>
+            <Project key={project.id} name={project.name} title={project.title} ownership={project.owner} description={project.description} image={project.image} url={project.url} github={project.github} technologies={project.technologies}/>
           )}
         </div>
       </div>

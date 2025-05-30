@@ -21,8 +21,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +47,8 @@
     "node": "22.x"
   },
   "devDependencies": {
-    "parcel": "latest",
-    "process": "^0.11.10"
+    "@vitejs/plugin-react": "^4.5.0",
+    "process": "^0.11.10",
+    "vite": "^6.3.5"
   }
 }

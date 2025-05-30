@@ -12,7 +12,7 @@ export default function Welcome() {
       <section id="intro" className="flex flex-col justify-center" aria-label="intro">
         <h1 className="flex flex-col justify-center h-screen max-w-5xl mx-auto mb-4 text-4xl leading-[50px] tracking-tight text-center text-white font-extralight md:text-8xl font-spectral">
           <span className="font-light">Software <span className="text-teal-300">Developer.</span></span>
-          <span>Building <span className="italic">performant</span> <br/> applications.</span>
+          <span>Building <span className="italic">Scalable & Secure</span> <br/> applications.</span>
         </h1>
         <div className="gap-10 my-10 md:flex">
           <p>Over the years as a software developer, I have had the privilege of collaborating with highly skilled professionals in both development and design. This collaboration has significantly elevated my standards for software applications, prompting a refined approach to product development.</p>
@@ -26,9 +26,9 @@ export default function Welcome() {
         <p className="py-10 md:w-2/3">Through my experience and education, I've gained a solid understanding of computer science and web development concepts, and I've dedicated a lot of time to apply them in the real world.</p>
         <ul className="grid md:grid-cols-3 grid-cols-2 gap-x-4 w-full text-base list-[square] justify-between">
           {techSkills.map(skill =>
-            <li key={skill.id} class="flex mb-4 items-center">
+            <li key={skill.id} className="flex mb-4 items-center">
               <span className="mr-4 text-teal-300 rounded-full">
-                <svg width="10" height="10" viewBox="0 0 20 20" class="fill-current">
+                <svg width="10" height="10" viewBox="0 0 20 20" className="fill-current">
                   <path d="M10 19.625C4.6875 19.625 0.40625 15.3125 0.40625 10C0.40625 4.6875 4.6875 0.40625 10 0.40625C15.3125 0.40625 19.625 4.6875 19.625 10C19.625 15.3125 15.3125 19.625 10 19.625ZM10 1.5C5.3125 1.5 1.5 5.3125 1.5 10C1.5 14.6875 5.3125 18.5312 10 18.5312C14.6875 18.5312 18.5312 14.6875 18.5312 10C18.5312 5.3125 14.6875 1.5 10 1.5Z"></path>
                 </svg>
               </span>
@@ -43,7 +43,7 @@ export default function Welcome() {
         <p className="py-10 md:w-2/3">I enjoy building projects. I get to gain new experiences with each project and also work on something interesting. Take a look at some of the projects I've dedicated my time to.</p>
         <div id="projects-section" className="grid w-full grid-cols-1 gap-32 md:grid-cols-2 lg:mb-0">
           {projects.map(project =>
-            <Project key={project.id} title={project.title} description={project.description} technologies={project.technologies} url={project.url} github={project.github} image={project.image} />
+            <Project key={project.id} title={project.title} ownership={project.owner} description={project.description} technologies={project.technologies} url={project.url} github={project.github} image={project.image} />
           )}
         </div>
       </section>

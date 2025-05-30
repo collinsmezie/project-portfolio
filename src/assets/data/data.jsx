@@ -21,9 +21,9 @@ import node from '../images/node.png';
 import pharma from '../images/pharma.png';
 import postgres from '../images/postgresql.png';
 import ajozave from '../images/ajozave.png'
-
-
-
+import nest from '../images/nest.png';
+import productPadi from '../images/productPadi.png';
+import dashboard from '../images/BC-dashboard.png';
 
 
 
@@ -33,6 +33,7 @@ export const projects = [
   {
     id: generate(),
     title: "AjoZave",
+    owner: "personal",
     description: "Ajozave is a digital platform for automated group savings, simplifying contributions, payouts, and management.",
     image: ajozave,
     url: "https://ajozave-admin-account.vercel.app",
@@ -40,35 +41,59 @@ export const projects = [
     technologies: [node, react, express, tailwind]
   },
 
+  {
+    id: generate(),
+    title: "BananaCrystal",
+    owner: "company",
+    description: "Contributed to the API development of BananaCrystal.com a global FINTECH company that facilitates the Peer-To-Peer Trading of USD with any Currency.",
+    image: dashboard,
+    url: "https://bananacrystal.com",
+    // github: "https://github.com/collinsmezie/recipe-app",
+    technologies: [react, ror, postgres]
+  },
+
+  {
+    id: generate(),
+    title: "Product Padi",
+    owner: "client",
+    description: "Contributed to the development of Product Padi, a platform that allows users to create and manage product roadmaps, track progress, and collaborate with team members.",
+    image: productPadi,
+    url: "https://productpadi.app/",
+    // github: "https://github.com/collinsmezie/recipe-app",
+    technologies: [node, react, express, tailwind]
+  },
 
   {
     id: generate(),
     title: "Bungalow",
+    owner: "personal",
     description: "Explore diverse menus, order online, and savor culinary delights and enjoy delicious cuisine delivered to your doorstep.",
     image: bungalow,
     url: "https://www.bungalowrestaurant.com/home",
     // github: "https://github.com/collinsmezie/recipe-app",
-    technologies: [ mongodb, express, react, node ]
+    technologies: [mongodb, express, react, node]
   },
 
   {
     id: generate(),
     title: "Space Traveler's Hub",
+    owner: "personal",
     description: "A website which enables users to browse a list of SpaceX tour rockets, make reservations and join missions.",
     image: SpaceX,
     url: "https://space-travellers-react.vercel.app",
     // github: "https://github.com/collinsmezie/space-travellers-react",
-    technologies: [react,javascript,redux,tailwind]
+    technologies: [react, javascript, redux, tailwind]
   },
 
   {
     id: generate(),
     title: "Tech Bloggers Haven",
+    owner: "personal",
     description: "An engaging web app designed for tech enthusiasts and developers to share their knowledge and insights with the world.",
     image: blogapp,
     url: "https://jamstack-blog-nine.vercel.app/",
     // github: "https://github.com/collinsmezie/jamstack-blog",
-    technologies: [next,react,tailwind]
+    technologies: [next, react, tailwind]
   },
 
   // {
@@ -80,7 +105,7 @@ export const projects = [
   //   // github: "https://github.com/collinsmezie/recipe-app",
   //   technologies: [ruby, ror, tailwind]
   // },
- 
+
   // {
   //   id: generate(),
   //   title: "TranXact",
