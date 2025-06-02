@@ -50,7 +50,7 @@ export const projects = [
     image: dashboard,
     url: "https://bananacrystal.com",
     // github: "https://github.com/collinsmezie/recipe-app",
-    technologies: [react, ror, postgres]
+    technologies: [react, ror, nest, postgres]
   },
 
   {
