@@ -24,6 +24,7 @@ import ajozave from '../images/ajozave.png'
 import nest from '../images/nest.png';
 import productPadi from '../images/productPadi.png';
 import dashboard from '../images/BC-dashboard.png';
+import contentful from '../images/contentful.png';
 
 
 
@@ -34,7 +35,7 @@ export const projects = [
     id: generate(),
     title: "AjoZave",
     owner: "personal",
-    description: "Ajozave is a digital platform for automated group savings, simplifying contributions, payouts, and management.",
+    description: "Ajozave is a mobile platform for automated group savings, simplifying contributions, payouts, and management.",
     image: ajozave,
     url: "https://ajozave-admin-account.vercel.app",
     // github: "https://github.com/collinsmezie/recipe-app",
@@ -60,7 +61,7 @@ export const projects = [
     image: productPadi,
     url: "https://productpadi.app/",
     // github: "https://github.com/collinsmezie/recipe-app",
-    technologies: [node, react, express, tailwind]
+    technologies: [node, mongodb, react, express, tailwind]
   },
 
   {
@@ -93,7 +94,7 @@ export const projects = [
     image: blogapp,
     url: "https://jamstack-blog-nine.vercel.app/",
     // github: "https://github.com/collinsmezie/jamstack-blog",
-    technologies: [next, react, tailwind]
+    technologies: [next, contentful, react, tailwind]
   },
 
   // {
