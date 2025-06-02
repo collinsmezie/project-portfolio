@@ -27,7 +27,7 @@ export default function Project({ title, ownership, description, image, url, git
             VIEW PROJECT &gt;
           </button> */}
 
-          <button onClick={() => {window.location.href=url}} className="border px-8 mt-6 py-1 border-teal-300 bg-transparent hover:bg-teal-300 hover:border ease-in-out duration-700 transition-colors text-teal-300 hover:text-black font-bold w-max sticky z-[11]">VIEW PROJECT DEMO</button>
+          <button onClick={() => {window.location.href=url}} className="border px-8 mt-6 py-1 border-teal-300 bg-transparent hover:bg-teal-300 hover:border ease-in-out duration-700 transition-colors text-teal-300 hover:text-black font-bold w-max sticky z-[11]">VIEW LIVE</button>
 
 
           {/* <a href={github} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-white md:hover:text-teal-300 md:hover:animate-none">
